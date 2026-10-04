@@ -25,6 +25,11 @@ export default function Main() {
 					alt=""
 					className={styles.backgroundPattern}
 				/>
+				<div className={styles.header}>
+					<h1 className={styles.title}>
+						Victor Crest<span className={styles.age}>26</span>
+					</h1>
+				</div>
 			</section>
 		</main>
 	);

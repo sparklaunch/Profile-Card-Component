@@ -21,11 +21,29 @@
 	top: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 20px;
-	width: 500px;
+	width: 400px;
 	overflow: hidden;
+	background-color: white;
 }
 
 .backgroundPattern {
 	width: 100%;
 	height: auto;
+}
+
+.title {
+	text-align: center;
+	font-size: 24px;
+	color: var(--color-title);
+}
+
+.age {
+	font-weight: 400;
+	color: var(--color-text);
+	margin-left: 15px;
+}
+
+.header {
+	padding: 30px;
+	margin-top: 50px;
 }
