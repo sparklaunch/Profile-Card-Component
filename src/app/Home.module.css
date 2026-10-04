@@ -1,2 +1,20 @@
 .main {
+	height: inherit;
+}
+
+.backgrounds {
+	position: relative;
+	height: inherit;
+}
+
+.topBackground {
+	position: absolute;
+	top: -50%;
+	left: 0;
+}
+
+.bottomBackground {
+	position: absolute;
+	bottom: -50%;
+	right: 0;
 }
