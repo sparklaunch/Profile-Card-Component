@@ -58,3 +58,22 @@
 	border: none;
 	border-top: 2px solid var(--color-text);
 }
+
+.footer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 30px;
+}
+
+.figure {
+	color: var(--color-title);
+	text-align: center;
+}
+
+.figureTitle {
+	color: var(--color-text);
+	font-size: 14px;
+	text-align: center;
+	margin-top: 3px;
+	letter-spacing: 2px;
+}

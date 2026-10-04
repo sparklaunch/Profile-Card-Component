@@ -25,13 +25,27 @@ export default function Main() {
 					alt=""
 					className={styles.backgroundPattern}
 				/>
-				<div className={styles.header}>
+				<header className={styles.header}>
 					<h1 className={styles.title}>
 						Victor Crest<span className={styles.age}>26</span>
 					</h1>
 					<p className={styles.location}>London</p>
-				</div>
+				</header>
 				<hr className={styles.horizontalLine} />
+				<footer className={styles.footer}>
+					<div>
+						<h3 className={styles.figure}>80K</h3>
+						<h2 className={styles.figureTitle}>Followers</h2>
+					</div>
+					<div>
+						<h3 className={styles.figure}>803K</h3>
+						<h2 className={styles.figureTitle}>Likes</h2>
+					</div>
+					<div>
+						<h3 className={styles.figure}>1.4K</h3>
+						<h2 className={styles.figureTitle}>Photos</h2>
+					</div>
+				</footer>
 			</section>
 		</main>
 	);
