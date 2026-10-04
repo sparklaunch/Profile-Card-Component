@@ -47,3 +47,14 @@
 	padding: 30px;
 	margin-top: 50px;
 }
+
+.location {
+	text-align: center;
+	color: var(--color-text);
+	margin-top: 10px;
+}
+
+.horizontalLine {
+	border: none;
+	border-top: 2px solid var(--color-text);
+}

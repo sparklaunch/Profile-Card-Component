@@ -29,7 +29,9 @@ export default function Main() {
 					<h1 className={styles.title}>
 						Victor Crest<span className={styles.age}>26</span>
 					</h1>
+					<p className={styles.location}>London</p>
 				</div>
+				<hr className={styles.horizontalLine} />
 			</section>
 		</main>
 	);
