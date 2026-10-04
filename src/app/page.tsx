@@ -1,4 +1,5 @@
 import Image from "next/image";
+import backgroundPattern from "../shared/assets/images/background-pattern.svg";
 import bottomBackground from "../shared/assets/images/bottom-background.svg";
 import topBackground from "../shared/assets/images/top-background.svg";
 import styles from "./Home.module.css";
@@ -18,6 +19,13 @@ export default function Main() {
 					className={styles.bottomBackground}
 				/>
 			</div>
+			<section className={styles.card}>
+				<Image
+					src={backgroundPattern}
+					alt=""
+					className={styles.backgroundPattern}
+				/>
+			</section>
 		</main>
 	);
 }

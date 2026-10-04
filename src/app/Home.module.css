@@ -1,8 +1,4 @@
 .main {
-	height: inherit;
-}
-
-.backgrounds {
 	position: relative;
 	height: inherit;
 }
@@ -17,4 +13,19 @@
 	position: absolute;
 	bottom: -50%;
 	right: 0;
+}
+
+.card {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+	width: 500px;
+	overflow: hidden;
+}
+
+.backgroundPattern {
+	width: 100%;
+	height: auto;
 }
