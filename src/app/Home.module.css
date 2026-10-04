@@ -45,7 +45,8 @@
 
 .header {
 	padding: 30px;
-	margin-top: 50px;
+	padding-top: 80px;
+	position: relative;
 }
 
 .location {
@@ -76,4 +77,13 @@
 	text-align: center;
 	margin-top: 3px;
 	letter-spacing: 2px;
+}
+
+.victor {
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50%;
+	border: 5px solid white;
 }

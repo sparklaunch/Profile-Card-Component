@@ -2,6 +2,7 @@ import Image from "next/image";
 import backgroundPattern from "../shared/assets/images/background-pattern.svg";
 import bottomBackground from "../shared/assets/images/bottom-background.svg";
 import topBackground from "../shared/assets/images/top-background.svg";
+import victor from "../shared/assets/images/victor.jpg";
 import styles from "./Home.module.css";
 
 export default function Main() {
@@ -26,6 +27,11 @@ export default function Main() {
 					className={styles.backgroundPattern}
 				/>
 				<header className={styles.header}>
+					<Image
+						src={victor}
+						alt="Victor Crest"
+						className={styles.victor}
+					/>
 					<h1 className={styles.title}>
 						Victor Crest<span className={styles.age}>26</span>
 					</h1>
