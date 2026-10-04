@@ -1,0 +1,11 @@
+:root {
+	--color-background: rgb(24, 151, 164);
+	--color-title: rgb(31, 31, 43);
+	--color-text: rgb(124, 125, 128);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
